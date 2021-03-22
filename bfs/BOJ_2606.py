@@ -27,6 +27,6 @@ if __name__ == "__main__":
     for i in range(k):
         a, b = map(int, input().split())
         com[a].append(b)
-        com[b].append(a)
+        com[b].append(a) #com[b].append(a) 코드가 없을 시 문제가 해결이 되지 않는다. 반례는 무엇?
 
     print(bfs(com, visited, 1))
