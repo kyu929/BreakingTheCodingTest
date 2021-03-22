@@ -28,5 +28,14 @@ if __name__ == "__main__":
         a, b = map(int, input().split())
         com[a].append(b)
         com[b].append(a) #com[b].append(a) 코드가 없을 시 문제가 해결이 되지 않는다. 반례는 무엇?
+        '''
+        반례 5
+             4
+             5 2
+             4 2
+             3 2
+             2 1
+        간선의 방향성이 없는 것을 고려하지 않음.
+        '''
 
     print(bfs(com, visited, 1))
