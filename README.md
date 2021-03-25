@@ -9,5 +9,5 @@
 
 2. BFS & DFS
 
-spring(봄)
+춘
 구현, 집합, DP
