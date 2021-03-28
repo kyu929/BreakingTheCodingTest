@@ -72,7 +72,6 @@ if __name__ == "__main__":
 bfs()
 isTrue = False
 result = -2
-print(box)
 for i in box:
     for j in i:
         if j == 0:
